@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+
+
+
+    // 注册添加-------------------------------------------------
+    // //1. 创建ajax对象
+    // var xhr = new XMLHttpRequest();
+    // //2. 请求方式GET或POST
+    // xhr.open('post', 'http://127.0.0.1:3000/api/register');
+    // xhr.setRequestHeader('Content-Type', 'application/json')
+    // //3. 发送请求
+    // xhr.send(JSON.stringify({
+    //   usename: "8涛6",
+    //   password: "阿喜",
+    // }));
+    // //4. 获取服务器响应到客户的数据
+    // xhr.onload = function () {
+    //   //5. 将字符串转换成对象
+    //   var res = JSON.parse(xhr.responseText);
+    //   console.log(res);
+    // }
+
+
+
+
+
+    // // 删除----------------------------------------------------------------
+    // var xhr = new XMLHttpRequest();
+    // xhr.open('get', 'http://127.0.0.1:3000/api/delete?id=123');
+    // xhr.onreadystatechange = function () {
+    //   if (xhr.readyState === XMLHttpRequest.DONE) {
+    //     if (xhr.status === 200) {
+    //       console.log('用户删除成功');
+    //     } else {
+    //       console.error('用户删除失败');
+    //     }
+    //   }
+    // };
+    // xhr.send();
+
+
+
+
+    // 登录----------------------------------------------------------------
+    // var xhr = new XMLHttpRequest();
+    // xhr.open('get', 'http://127.0.0.1:3000/api/login?usename=8涛6&password=阿喜');
+    // xhr.onreadystatechange = function () {
+    //   if (xhr.readyState === XMLHttpRequest.DONE) {
+    //     if (xhr.status === 200) {
+    //       console.log('登录成功');
+    //     } else {
+    //       console.error('登录失败');
+    //     }
+    //   }
+    // };
+    // xhr.send();
+
+
+    
+
+    // 更新用户信息-----------------------------------------------------
+    // var xhr = new XMLHttpRequest();
+
+    // xhr.open('post', 'http://127.0.0.1:3000/api/update');
+    // xhr.setRequestHeader('Content-Type', 'application/json');
+    // xhr.send(JSON.stringify({
+    //   id: 5, // 要更新的用户的id
+    //   password: 'new_password', // 要更新的密码
+    //   nickname: 'new_nickname', // 要更新的昵称
+    //   email: 'new_email@example.com', // 要更新的邮箱
+    //   ev_userscol: 'new_ev_userscol', // 要更新的ev_userscol
+    //   user_pic: 'new_user_pic' // 要更新的头像
+    // }));
+
+    // xhr.onload = function () {
+    //   var res = JSON.parse(xhr.responseText);
+    //   console.log(res);
+    // }
+  </script>
+
+</body>
+
+</html>
